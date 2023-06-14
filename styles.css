@@ -1,0 +1,169 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+
+
+
+
+}
+
+
+
+
+
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+    margin-right: 32px;
+
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 177px;
+
+
+    text-align: center;
+    letter-spacing: 0.875px;
+
+    color: #17233D;
+    margin-right: 32px;
+}
+
+.sign-up {
+
+
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49
+}
+
+
+
+p {
+    width: 304px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    text-align: center;
+}
+
+.sign-up2 {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44
+}
+
+@media (max-width: 400px) {
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: -29px;
+        margin-top: 76px;
+        margin-bottom: 29px;
+
+
+        text-align: center;
+
+        color: #161A49;
+
+    }
+
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        margin-top: 29px;
+        margin-left: -48px;
+        margin-right: -110px;
+        margin-bottom: 26px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .sign-up {
+        box-sizing: border-box;
+        position: absolute;
+        left: 0%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        border-radius: 6px;
+
+
+    }
+
+
+
+    img {
+        width: 312px;
+        height: 288px;
+        display: block;
+        margin-top: 448px;
+        position: absolute;
+        margin-left: 33px;
+        padding: 0;
+    }
+
+    .sign-up2 {
+        margin-right: 43px;
+        margin-left: 43px;
+        margin-top: 7px;
+    }
+
+    .sign-up {
+        margin-left: 251px;
+        margin-top: 28px;
+    }
+}
